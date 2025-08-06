@@ -87,3 +87,13 @@ https://www.kaggle.com/datasets/kunshbhatia/delhi-air-quality-dataset
 - **PM10, PM2.5, and CO** are the dominant drivers of AQI  
 - The model performs well in predicting AQI and can be extended for future use cases  
 
+---
+
+## Part 3: ML Extension: Modeling Delhi’s AQI with Regression
+
+In this part of the project, we build a **multiple linear regression model** to predict Delhi’s AQI using pollutant measures. Key highlights:
+
+- Explored strongest predictors: **PM2.5, PM10, CO**, then extended model with **NO₂**
+- Best model (with NO₂) explains **85.7%** of AQI variance
+- All predictors maintain high statistical significance and improve interpretability
+- Model refinement and performance comparison are detailed in the notebook `delhi-aqi-ml-model.ipynb`
